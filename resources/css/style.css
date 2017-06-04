@@ -1,0 +1,152 @@
+html {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  margin: 0 auto;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 24px;
+}
+
+#logo img {
+  height: 48px;
+}
+
+header span {
+  color: darkgray;
+  font-size: 1.33rem;
+}
+
+#colmar {
+  font-weight: bold;
+  color: rgb(64, 64, 64);
+}
+
+.desktop {
+  padding-right: 24px;
+}
+
+.desktop a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 8px;
+  color: rgb(64, 64, 64);
+
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .mobile img {
+    height: 32px;
+  }
+}
+
+/* Learn Something New Everyday */
+
+.learncontainer {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(204, 204, 204);
+  margin-top: 64px;
+  display: flex;
+  padding: 32px 24px;
+}
+
+.imaging {
+  display: flex;
+  width: 60%;
+  margin-right: 40px;
+}
+
+.imagebox img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learnbox {
+  color: rgb(64,64,64);
+  margin-top: 64px;
+  line-height: 1.2;
+  width: 30%;
+  margin-right: 32px;
+}
+
+.learnbox h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 32px;
+  width: 90%;
+
+}
+
+.learnbox p {
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+  width: 90%;
+}
+
+.learnbox span {
+  background-color: rgb(64,64,64);
+  padding: 8px 0px;
+  display: flex;
+  width: 75%;
+  justify-content: center;
+
+}
+
+.learnbox span a {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+
+/* Practicing */
+
+
+/* Start Learning */
+
+
+/* Thesis Exhibit */
+
+
+
+
+/* Footer */
