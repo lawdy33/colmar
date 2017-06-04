@@ -55,6 +55,27 @@ header span {
   display: none;
 }
 
+@media only screen and (max-width: 760px) {
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .mobile img {
+    height: 32px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
 
   .desktop {
@@ -142,6 +163,23 @@ header span {
 
 .mobilegraybox {
   display: none;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .learnbox {
+    margin-top: 0.5rem;
+  }
+
+  .learnbox h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .learnbox p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
