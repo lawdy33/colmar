@@ -528,13 +528,35 @@ header span {
     font-weight: 300;
   }
 
-  @media only screen and (max-width: 1079px) {
-
-  }
-
   @media only screen and (max-width: 480px) {
 
+    body {
+      width: 100%;
+    }
 
+    .subjectpic img {
+      display: none;
+    }
+
+    .subjecttext span, p {
+      display: none;
+    }
+
+    .learningcontainer h1 {
+      padding: 2rem 0 1rem 0;
+    }
+
+    .subjecttext h2 {
+      align-items: center;
+
+    }
+
+    .subjectbox {
+      height: 3.2rem;
+      width: 90%;
+      margin: 0.5rem;
+      padding: 0;
+      background-color: lightgray;
   }
 
 
