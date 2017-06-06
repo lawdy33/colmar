@@ -94,7 +94,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
   .desktop {
     display: none;
@@ -215,7 +215,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
   body {
     width: 100%;
@@ -414,7 +414,7 @@ nav a:hover {
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   body {
     width: 100%;
   }
@@ -558,7 +558,7 @@ nav a:hover {
     font-weight: 300;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
 
     body {
       width: 100%;
@@ -658,7 +658,7 @@ nav a:hover {
     line-height: 2;
   }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
   #fisma.rightbox {
     display: none;
@@ -732,7 +732,7 @@ nav a:hover {
    padding: 0 0.5rem;
  }
 
- @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 600px) {
 
    footer {
      padding: 1rem;
