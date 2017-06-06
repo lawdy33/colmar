@@ -645,7 +645,7 @@ header span {
   }
 
   #thesis.leftbox h1, p {
-    display: none
+    display: none;
   }
 
   #thesis.learningcontainer {
@@ -680,7 +680,40 @@ header span {
     margin: 0;
     font-weight: 600;
   }
-
 }
 
 /* Footer */
+
+ footer {
+   position: relative;
+   z-index: 5;
+   top: 4rem;
+   background-color: white;
+   height: 3rem;
+   max-width: 100%;
+   padding: 1.5rem;
+   display: flex;
+   align-items: center;
+   font-weight: 300;
+   font-size: 0.9rem;
+ }
+
+ footer span {
+   flex-grow: 1;
+ }
+
+ footer nav a {
+   padding: 0 0.5rem;
+ }
+
+ @media only screen and (max-width: 480px) {
+
+   footer {
+     padding: 1rem;
+     height: auto;
+     font-size: 0.75rem;
+   }
+   footer nav a {
+     display: none;
+   }
+ }
