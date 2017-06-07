@@ -93,6 +93,11 @@ nav a:hover {
   .mobile img {
     height: 32px;
   }
+
+  .mobile a:hover {
+    background-color: rgb(255,233,155);
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,6 +118,11 @@ nav a:hover {
 
   .mobile img {
     height: 32px;
+  }
+
+  .mobile a:hover {
+    background-color: rgb(255,233,155);
+    border-radius: 5px;
   }
 }
 
