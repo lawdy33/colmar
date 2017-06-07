@@ -1,6 +1,7 @@
 html {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
+  background-color: rgb(52,89,97);
 }
 body {
   margin: 0 auto;
