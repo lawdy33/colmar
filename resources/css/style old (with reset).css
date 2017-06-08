@@ -42,14 +42,6 @@ header {
   display: flex;
 }
 
-#logo a:hover {
-  background-color: rgb(213,248,255);
-}
-
-#logo a:active {
-  background-color: red;
-}
-
 header span {
   color: rgb(52,89,97);
   font-size: 1.33rem;
@@ -74,12 +66,6 @@ header span {
 
 nav a:hover {
   color: white;
-  background-color: black;
-  border-radius: 5px;
-}
-
-nav a:active {
-  color: rgb(213,248,255);
   background-color: black;
   border-radius: 5px;
 }
@@ -112,12 +98,6 @@ nav a:active {
     background-color: rgb(255,233,155);
     border-radius: 5px;
   }
-
-  .mobile a:active {
-    background-color: orange;
-    border-radius: 5px;
-  }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -144,12 +124,6 @@ nav a:active {
     background-color: rgb(255,233,155);
     border-radius: 5px;
   }
-
-  .mobile a:active {
-    background-color: orange;
-    border-radius: 5px;
-  }
-
 }
 
 /* Learn Something New Everyday */
@@ -220,14 +194,8 @@ nav a:active {
 }
 
 .learnbox span a:hover {
-  background-color: black;
+  background-color: red;
   color: white;
-  border-radius: 3px;
-}
-
-.learnbox span a:active {
-  background-color: yellow;
-  color: black;
   border-radius: 3px;
 }
 
@@ -418,9 +386,8 @@ nav a:active {
   color: rgb(16,16,16);
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  margin: 1rem 1.5rem 3rem 2rem;
-
+  flex-wrap: wrap;
+  margin: 1.5rem 2rem;
 }
 
 #special {
@@ -430,14 +397,14 @@ nav a:active {
 .textbox h2 {
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
-  letter-spacing: .4px;
+  margin-bottom: 12px;
+  letter-spacing: .5px;
 }
 
 .textbox span {
   font-weight: 300;
   font-size: 0.8rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .textbox a {
@@ -449,11 +416,6 @@ nav a:active {
 .textbox a:hover {
   text-decoration: underline;
   color: red;
-}
-
-.textbox a:active {
-  text-decoration: underline;
-  color: purple;
 }
 
 #olivertext {
@@ -558,7 +520,6 @@ nav a:active {
     padding: 2rem 0 1.5rem 0;
     width: 100%;
     text-align: center;
-    margin: 0;
   }
 
   .learningbox {
@@ -569,7 +530,6 @@ nav a:active {
     justify-content: space-around;
     margin-bottom: 1.5rem;
     line-height: 1.15;
-
   }
 
   .subjects {
@@ -586,12 +546,6 @@ nav a:active {
     flex-direction: column;
     margin: 0.5rem 1rem;
     background-color: white;
-
-  }
-
-  .subjectpic {
-    margin: 0;
-    padding: 0;
   }
 
   .subjectpic img {
@@ -600,30 +554,21 @@ nav a:active {
   }
 
   .subjecttext {
-    margin: 0;
-    padding: 0;
+    padding: 1rem 0 1.5rem 1rem;
   }
 
   .subjecttext h2 {
     font-size: 1.2rem;
     font-weight: 500;
-    margin: 0.9rem 0rem 0.5rem 1rem;
-    padding: 0;
   }
 
   .subjecttext span {
     display: inline-block;
-    margin: 0 0 0.5rem 1rem;
-    color: rgb(52,89,97);
-    font-size: 0.85rem;
+    padding: 0.5rem 0;
   }
 
   .subjecttext span, p {
     font-weight: 300;
-  }
-
-  .subjecttext p {
-    margin: 0 0 1.5rem 1rem;
   }
 
   @media only screen and (max-width: 600px) {
@@ -798,8 +743,6 @@ nav a:active {
 
  footer nav a {
    padding: 0 0.5rem;
-   text-decoration: none;
-   color: rgb(64, 64, 64);
  }
 
  @media only screen and (max-width: 600px) {
