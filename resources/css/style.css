@@ -217,6 +217,7 @@ nav a:active {
   color: white;
   font-weight: 300;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .learnbox span a:hover {
@@ -419,7 +420,7 @@ nav a:active {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 1rem 1.5rem 3rem 2rem;
+  margin: 2.5rem 1.5rem 3rem 2rem;
 
 }
 
@@ -443,7 +444,8 @@ nav a:active {
 .textbox a {
   color: blue;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .textbox a:hover {
@@ -491,6 +493,8 @@ nav a:active {
 
   .infobox {
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .mobilepic {
@@ -509,8 +513,8 @@ nav a:active {
   }
 
   .textbox {
-    margin: 1rem;
-    padding: 0;
+    margin: 1rem 0 1rem 1rem;
+    padding: 0rem;
   }
 
   #special {
@@ -520,15 +524,21 @@ nav a:active {
     margin-bottom: 8px;
   }
 
+  .textbox h2 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding: 0;
+  }
+
   .textbox span {
     font-weight: 300;
     font-size: 1rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 
   .textbox a {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
   }
 
   #deskguest {
@@ -714,11 +724,6 @@ nav a:active {
   #fisma.infobox {
     width: 423px;
     height: auto;
-  }
-
-  .textbox {
-    justify-content: center;
-    margin-top: 2rem;
   }
 
   #dtext {
